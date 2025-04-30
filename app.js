@@ -5,7 +5,7 @@ function App() {
   const [prompt, setPrompt] = useState('');
   const [chat, setChat] = useState([]);
 
-  const sendPrompt = async () => {
+  const sendPrompt = async () => { 
     if (!prompt) return;
 
     const userMessage = { role: 'user', content: prompt };
